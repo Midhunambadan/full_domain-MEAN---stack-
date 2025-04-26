@@ -1,61 +1,39 @@
-// // let obj = { a: 20, b: 30, c: 40, d: 50 };
+//Binary Search
 
-// // obj.add('m':200)
-// // for(let i in obj){
-// //     console.log(i)
-// // }
+let arr=[20,30,40,50,60,70]
 
+function binarySearch(target,arr){
+    let left=0
+    let right=arr.length-1
 
-// // let apples = "2";
-// // let oranges = "3";
+    while(left<=right){
+        let mid=Math.floor((left+right)/2)
+        if(target==arr[mid]){
+            return mid;
+        }else if( target <arr[mid]){
+            right=mid-1
+        }else{
+            left=mid+1
+        }
+    }
 
-// // console.log( +apples+ +oranges )
+    return -1
+}
 
-// // console.log( typeof Number("444dd"))
+console.log(binarySearch(70,arr))
 
-// let arr = [5, 8, 4,2, 3, 9, 10, 1, 2, 6, 7];
+function recursiveBinarySearch(arr,target,left=0,right=arr.length-1){
 
-// function isPrime(num) {
-//     if(num<2) return true
-//   for (let i = 2; i < num; i++) {
-//     if (num % i == 0) {
-//       return false;
-//     }
-//   }
-//   return true;
-// }
+    if(left > right) return -1
+    let mid=Math.floor((left+right)/2)
+    if(target===arr[mid]){
+        return mid
+    }else if(target<arr[mid]){
+        return recursiveBinarySearch(arr,target,left,mid-1)
+    }else{
+        return recursiveBinarySearch(arr,target,mid+1,right)
+    }
+    
+}
 
-
-// function sum(arr) {
-//   let sum = 0;
-//   for (let i = 0; i < arr.length; i++) {
-//     if (isPrime(arr[i])) {
-//       sum += arr[i];
-//     }
-//   }
-//   return sum;
-// }
-
-// // console.log('Sum of odd =',sum(arr));
-
-// function frequency(arr){
-//     let seen={}
-//     count=0
-//     for(let i=0;i<arr.length;i++){
-//         if(seen[arr[i]]){
-//             seen[arr[i]]++
-//         }else{
-//             seen[arr[i]]=1
-//         }
-//     }
-
-//     return seen
-// }
-
-
-// // console.log(frequency(arr))
-
-
-
-let str=''
-console.log(!isNaN(str))
+console.log(recursiveBinarySearch(arr,20));

@@ -1,0 +1,560 @@
+🔥 Alright Midhun! Here's a list of **500 practical JavaScript questions** (divided by category and difficulty) covering **arrays, strings, objects, recursion, functional programming, DOM manipulation, algorithms, and more**. You can copy-paste and track progress easily.
+
+---
+
+### 🟢 **Beginner Level (1–150)**
+
+#### ✅ **Basic Syntax & Data Types (1–30)**
+1. Declare a variable and assign your name.✅
+2. Swap two numbers.✅
+3. Add two numbers.✅
+4. Check if a number is even or odd.✅
+5. Find the largest among three numbers.✅
+6. Convert Celsius to Fahrenheit.✅
+7. Convert a string to a number.
+8. Check if a string is a palindrome.
+9. Find the length of a string.
+10. Reverse a string.
+11. Convert a number to a string.
+12. Count vowels in a string.
+13. Replace all vowels in a string with '*'.
+14. Capitalize the first letter of a string.
+15. Find the factorial of a number.
+16. Find the area of a triangle.
+17. Check if a number is prime.
+18. Generate a random number between 1 and 100.
+19. Print all prime numbers in an interval.
+20. Check if a year is a leap year.
+21. Find the square root of a number.
+22. Convert hours to seconds.
+23. Print multiplication table of a number.
+24. Convert minutes to hours and minutes.
+25. Check whether a character is an alphabet or not.
+26. Find the ASCII value of a character.
+27. Calculate the power of a number.
+28. Find the sum of digits in a number.
+29. Reverse a number.
+30. Calculate simple interest.
+
+#### ✅ **Arrays (31–70)**
+31. Find the largest element in an array.
+32. Find the smallest element.
+33. Find the sum of elements.
+34. Remove duplicates from an array.
+35. Check if array is sorted.
+36. Merge two arrays.
+37. Sort array in ascending order.
+38. Find even numbers in an array.
+39. Rotate array to the right.
+40. Rotate array to the left.
+41. Find the second largest number.
+42. Check if two arrays are equal.
+43. Count occurrences of a number.
+44. Move all zeros to end.
+45. Reverse an array.
+46. Find intersection of two arrays.
+47. Find union of two arrays.
+48. Find duplicates in array.
+49. Find missing number in array 1–n.
+50. Find common elements in 3 arrays.
+51. Search element using linear search.
+52. Search element using binary search.
+53. Merge sort implementation.
+54. Bubble sort implementation.
+55. Insertion sort.
+56. Selection sort.
+57. Find frequency of each element.
+58. Check if subarray with 0 sum exists.
+59. Find maximum sum of subarray.
+60. Find longest increasing subarray.
+
+#### ✅ **Strings (71–110)**
+61. Reverse words in a string.
+62. Count words in a string.
+63. Remove whitespaces from a string.
+64. Replace a word in a string.
+65. Check if two strings are anagrams.
+66. Find duplicate characters.
+67. Remove duplicate characters.
+68. Convert string to uppercase.
+69. Convert string to lowercase.
+70. Toggle case of a string.
+71. Check if string contains a substring.
+72. Find frequency of characters.
+73. Check if two strings are rotations.
+74. Find first non-repeating character.
+75. Check if string is a valid email.
+76. Count number of digits in a string.
+77. Replace spaces with dashes.
+78. Compress a string (e.g. aaabb → a3b2).
+79. Implement string.split() manually.
+80. Implement string.trim() manually.
+81. Implement string.includes().
+82. Check if string ends with a certain word.
+83. Find longest word in a string.
+84. Reverse only letters (skip special chars).
+85. Check if string is a pangram.
+86. Remove characters other than alphabets.
+87. Encode and decode a string (Caesar cipher).
+88. Find longest palindrome substring.
+89. Remove repeated words in a sentence.
+90. Mask all digits except last 4 in phone number.
+91. Convert sentence to camelCase.
+92. Convert camelCase to snake_case.
+93. Parse query string into object.
+94. Count uppercase and lowercase letters.
+95. Check if all characters are unique.
+96. Find longest common prefix.
+97. Remove all numeric digits from string.
+98. Extract numbers from string.
+99. Count special characters in string.
+100. Replace consecutive characters with a single one.
+
+---
+
+### 🟡 **Intermediate Level (151–350)**
+
+#### ✅ **Objects & Functional JS (151–200)**
+101. Count frequency using objects.
+102. Merge two objects.
+103. Deep clone an object.
+104. Convert object to array.
+105. Convert array to object.
+106. Group people by age.
+107. Sum all values in nested object.
+108. Flatten nested object.
+109. Access nested properties safely.
+110. Implement a custom map function.
+111. Implement custom filter.
+112. Implement custom reduce.
+113. Polyfill for bind().
+114. Polyfill for call().
+115. Polyfill for apply().
+116. Convert JSON to object.
+117. Convert object to JSON.
+118. Sort array of objects.
+119. Group objects by property.
+120. Remove key from object dynamically.
+
+#### ✅ **Recursion (201–250)**
+121. Factorial using recursion.
+122. Fibonacci series.
+123. Sum of digits using recursion.
+124. Reverse a string recursively.
+125. Palindrome check using recursion.
+126. Flatten array recursively.
+127. Binary search using recursion.
+128. Find GCD using recursion.
+129. Find power of a number using recursion.
+130. Tower of Hanoi.
+131. Count number of digits using recursion.
+132. Replace all vowels recursively.
+133. Check if array is sorted using recursion.
+134. Sum of n natural numbers.
+135. Find min in array recursively.
+136. Count consonants in a string recursively.
+137. Print all permutations of a string.
+138. Find all subsets of an array.
+139. Generate combinations.
+140. Implement merge sort using recursion.
+141. Recursive factorial with memoization.
+142. Remove duplicates recursively.
+143. Replace characters recursively.
+144. Recursive palindrome partitioning.
+145. Convert decimal to binary recursively.
+146. Find length of string recursively.
+147. Reverse an array recursively.
+148. Find LCM using recursion.
+149. Check if two arrays are equal recursively.
+150. Print numbers from 1 to n recursively.
+
+---
+
+
+### ✅ **Part 2: Intermediate Level (151–350)**  
+#### 🔹 **Arrays, Strings, Objects, Recursion, and Logic Building**
+
+**151–200: Array Practice Continued**
+151. Rotate an array to the left by k steps  
+152. Rotate an array to the right by k steps  
+153. Find second largest and second smallest in array  
+154. Find if an array is sorted  
+155. Replace every element with the greatest on right  
+156. Count number of distinct elements  
+157. Union of two arrays  
+158. Intersection of two arrays  
+159. Remove duplicates from sorted array  
+160. Maximum difference between two elements  
+161. Move all negative numbers to beginning  
+162. Find leader elements in array  
+163. Segregate 0s and 1s  
+164. Rearrange array in alternating positive/negative  
+165. Merge overlapping intervals  
+166. Find subarray with given sum  
+167. Rearrange array in max-min form  
+168. Wave form array  
+169. Sort array of 0s, 1s, 2s  
+170. Count frequencies of elements  
+171. Longest subarray with sum k  
+172. Check if array is subset of another  
+173. Largest subarray with equal 0s and 1s  
+174. Sort squares of a sorted array  
+175. Find equilibrium index  
+176. Maximum product subarray  
+177. Longest consecutive subsequence  
+178. Count pairs with given sum  
+179. Three-way partitioning  
+180. Rearrange array such that arr[i] becomes arr[arr[i]]  
+181. Count occurrences of element more than n/2  
+182. Check for pair with given difference  
+183. Smallest positive missing number  
+184. Longest increasing subsequence  
+185. Product of array except self  
+186. Count number of triangles  
+187. Majority element in array  
+188. Maximum sum of non-adjacent elements  
+189. Minimum swaps to bring elements <= k together  
+190. Find all repeating elements  
+191. Find max length chain of pairs  
+192. Maximum circular subarray sum  
+193. Trapping rainwater problem  
+194. Chocolate distribution problem  
+195. Convert array into Zig-Zag fashion  
+196. Maximize sum of arr[i]*i  
+197. Minimum platforms required  
+198. Minimize maximum difference of heights  
+199. Smallest subarray with sum greater than a number  
+200. Minimize number of jumps to end of array  
+
+---
+
+**201–250: Strings Practice**
+201. Reverse words in a string  
+202. Check if strings are anagrams  
+203. Find first non-repeating character  
+204. Remove duplicates from string  
+205. Find all substrings of a string  
+206. Count vowels and consonants  
+207. Capitalize first letter of each word  
+208. Check if string is palindrome  
+209. Longest palindromic substring  
+210. Longest common prefix  
+211. Implement strstr (substring search)  
+212. Find minimum window substring  
+213. Count and say problem  
+214. Group anagrams  
+215. Check for rotation of strings  
+216. Run length encoding  
+217. Print all permutations of string  
+218. Decode string (like "3[a]2[bc]")  
+219. Implement atoi function  
+220. Convert string to camelCase  
+221. Replace spaces with dashes  
+222. Convert Roman to Integer  
+223. Convert Integer to Roman  
+224. Check if two strings are isomorphic  
+225. Zigzag string conversion  
+226. Check if all characters are unique  
+227. Remove all adjacent duplicates  
+228. Valid parentheses checker  
+229. Length of longest substring without repeating chars  
+230. Find duplicate characters  
+231. Check if string is subsequence  
+232. Find longest prefix suffix (KMP logic)  
+233. Print all subsequences  
+234. Implement strstr using KMP  
+235. Rabin-Karp pattern matching  
+236. Boyer-Moore string search  
+237. Find smallest window with all characters  
+238. Replace all occurrences of word  
+239. Count palindromic substrings  
+240. Shortest common supersequence  
+241. Longest repeating subsequence  
+242. Multiply two large numbers represented as strings  
+243. Check if characters of string can be rearranged to form palindrome  
+244. Implement basic string calculator  
+245. Reverse only letters (ignore symbols)  
+246. Find duplicate words in sentence  
+247. Word pattern matching  
+248. Split a string into equal parts  
+249. Print characters and their frequencies  
+250. Convert case of string manually  
+
+---
+
+**251–300: Object & Function Challenges**
+251. Create an object and loop through keys  
+252. Clone a JavaScript object deeply  
+253. Merge two objects  
+254. Check if key exists in object  
+255. Convert object to array  
+256. Count properties in object  
+257. Sort object by values  
+258. Create a nested object  
+259. Access nested object safely  
+260. Filter object by value  
+261. Flatten a nested object  
+262. Create a function to check types  
+263. Currying function implementation  
+264. Debounce function logic  
+265. Throttle function logic  
+266. Memoize a function  
+267. Create a function that delays output  
+268. Implement a retry function wrapper  
+269. Write a polyfill for `bind()`  
+270. Write a polyfill for `call()`  
+271. Write a polyfill for `apply()`  
+272. Compose and pipe functions  
+273. Custom `map()` method  
+274. Custom `filter()` method  
+275. Custom `reduce()` method  
+276. Create a chainable calculator  
+277. Function to retry on failure  
+278. Time conversion utility  
+279. Create a `once()` function  
+280. Write a retry with exponential backoff  
+281. Create a sleep/delay function  
+282. Flatten array using recursion  
+283. Deep compare two objects  
+284. Build a simple event emitter  
+285. Write a custom promise  
+286. Polyfill for `Promise.all()`  
+287. Polyfill for `Promise.race()`  
+288. Polyfill for `Promise.any()`  
+289. Implement caching decorator  
+290. Throttle resize event  
+291. Count how many times function is called  
+292. Create an observable object  
+293. Convert callback to promise  
+294. Convert promise to async/await  
+295. Track the execution time of a function  
+296. Log arguments before calling a function  
+297. Retry API call on failure  
+298. Validate credit card number  
+299. Password strength checker  
+300. Email validation logic  
+
+---
+
+**301–350: Recursion, Search, Sort, Logical Building**
+301. Implement binary search  
+302. Implement linear search  
+303. Recursive factorial  
+304. Recursive Fibonacci  
+305. Print numbers from n to 1  
+306. Print sum of first n natural numbers  
+307. Find gcd using recursion  
+308. Find lcm using gcd  
+309. Recursive power function  
+310. Recursive sum of digits  
+311. Check if number is palindrome using recursion  
+312. Sum of array using recursion  
+313. Flatten nested array recursively  
+314. Print reverse of string using recursion  
+315. Generate binary strings of n length  
+316. Generate all subsets of a set  
+317. Solve Tower of Hanoi  
+318. Recursive reverse linked list  
+319. Permutation with backtracking  
+320. Subsets with backtracking  
+321. Sudoku solver  
+322. N-Queen solver  
+323. Generate all parentheses combinations  
+324. Word search in matrix  
+325. Maze pathfinder  
+326. Rat in a maze  
+327. Count all paths in matrix  
+328. Search in rotated sorted array  
+329. Peak element in array  
+330. First and last position in sorted array  
+331. Quick sort algorithm  
+332. Merge sort algorithm  
+333. Bubble sort  
+334. Selection sort  
+335. Insertion sort  
+336. Heap sort  
+337. Count sort  
+338. Radix sort  
+339. Binary search on answer pattern  
+340. Minimize max distance (binary search problem)  
+341. Allocate minimum pages  
+342. Painter partition problem  
+343. Aggressive cows problem  
+344. Koko eating bananas  
+345. Find square root of number  
+346. Find element in infinite array  
+347. Split array largest sum  
+348. Find k-th element in two sorted arrays  
+349. Search in bitonic array  
+350. Count number of rotations in sorted array  
+
+---
+
+✅ You already have **351–500** above (Algorithms, DOM, Projects).
+
+
+### 🔴 **Advanced Level (351–500)**
+
+#### ✅ **Algorithms & Data Structures (351–420)**  
+351. Find all pairs in an array that sum to a target.  
+352. Implement two sum using a hashmap.  
+353. Find triplets with zero sum.  
+354. Implement a stack using an array.  
+355. Implement a queue using an array.  
+356. Check for balanced parentheses.  
+357. Convert infix to postfix.  
+358. Evaluate postfix expression.  
+359. Implement LinkedList (add, delete, search).  
+360. Implement binary search tree (BST).  
+361. Find the height of a binary tree.  
+362. Implement BFS traversal.  
+363. Implement DFS traversal.  
+364. Detect a cycle in a graph.  
+365. Topological sort of a graph.  
+366. Implement a Min Heap.  
+367. Implement Max Heap.  
+368. Find the kth largest element.  
+369. Implement Trie and search words.  
+370. Longest substring without repeating characters.  
+371. Sliding window maximum.  
+372. Maximum sum subarray of size k.  
+373. Find all anagrams in a string.  
+374. Group anagrams.  
+375. Longest palindromic substring.  
+376. Count number of islands in a matrix.  
+377. Search a 2D matrix.  
+378. Spiral order traversal of a matrix.  
+379. Rotate a matrix by 90 degrees.  
+380. Word break problem.  
+381. Minimum number of coins to make amount.  
+382. 0/1 Knapsack Problem.  
+383. Longest common subsequence.  
+384. Longest common substring.  
+385. Edit distance problem.  
+386. Find duplicate number in array.  
+387. Check if Sudoku is valid.  
+388. Solve N-Queens problem.  
+389. Generate balanced parentheses.  
+390. Implement LRU Cache.  
+391. Implement Debounce function.  
+392. Implement Throttle function.  
+393. Check if linked list has a cycle.  
+394. Merge two sorted linked lists.  
+395. Detect and remove loop in linked list.  
+396. Sort a linked list.  
+397. Implement a priority queue.  
+398. Implement a circular queue.  
+399. Clone a graph.  
+400. Serialize and deserialize a binary tree.  
+401. Count set bits in a number.  
+402. Find the missing number using XOR.  
+403. Find the unique number in array where every other appears twice.  
+404. Count number of 1s in binary representation.  
+405. Generate power set.  
+406. Subset sum problem.  
+407. Maximum product subarray.  
+408. Rotate array using reversal algorithm.  
+409. Trapping rainwater problem.  
+410. Stock buy and sell to maximize profit.  
+411. Kadane’s Algorithm.  
+412. Zigzag level order traversal.  
+413. Maximum depth of a binary tree.  
+414. Lowest common ancestor in BST.  
+415. Flatten binary tree to linked list.  
+416. Build tree from preorder and inorder.  
+417. Implement union-find (disjoint set).  
+418. Find median of two sorted arrays.  
+419. Count inversions in array.  
+420. Find first and last position of element in sorted array.
+
+---
+
+#### ✅ **DOM Manipulation & Events (421–460)**  
+421. Create a button that toggles dark/light mode.  
+422. Build a counter with + and - buttons.  
+423. Implement a custom dropdown menu.  
+424. Create a modal popup box.  
+425. Make a sticky navigation bar.  
+426. Animate an element on click.  
+427. Build a tabbed component.  
+428. Make a simple image carousel.  
+429. Create a to-do list with add/remove.  
+430. Implement collapsible sections.  
+431. Display live time on page.  
+432. Create a digital clock.  
+433. Show password toggle button.  
+434. Copy text to clipboard.  
+435. Build a tooltip.  
+436. Create a file upload preview.  
+437. Form validation for email and phone.  
+438. Count characters left in a textarea.  
+439. Highlight selected list item.  
+440. Create scroll-to-top button.  
+441. Implement infinite scrolling.  
+442. Add items to cart with quantity.  
+443. Filter a list using search input.  
+444. Toggle class using JavaScript.  
+445. Prevent form from submitting empty fields.  
+446. Change background color based on dropdown.  
+447. Display notifications using JS.  
+448. Make an image zoom-in on hover.  
+449. Track mouse position on screen.  
+450. Auto-focus and validation for form.  
+451. Drag and drop list items.  
+452. Build a star rating system.  
+453. Create a custom context menu.  
+454. Simulate form submission delay.  
+455. Detect copy/paste events.  
+456. Play/pause video/audio with custom buttons.  
+457. Build a countdown timer.  
+458. Detect user’s idle state.  
+459. Save data to localStorage.  
+460. Implement accordion menu.
+
+---
+
+#### ✅ **Real-world Problems & Mini Projects (461–500)**  
+461. Build a BMI calculator.  
+462. Create a weather app using fetch + API.  
+463. Build a currency converter.  
+464. Make a QR code generator.  
+465. Create a stopwatch.  
+466. Build a Pomodoro timer.  
+467. Make a tip calculator.  
+468. Create a password strength checker.  
+469. Implement live search in a product list.  
+470. Build a Markdown previewer.  
+471. Create a GitHub profile viewer using API.  
+472. Build a notes app with localStorage.  
+473. Create a random quote generator.  
+474. Build a typing speed test.  
+475. Make a rock-paper-scissors game.  
+476. Create a weather dashboard using geolocation.  
+477. Make a BMI calculator responsive.  
+478. Build a calendar with events.  
+479. Create a simple calculator app.  
+480. Implement a tic-tac-toe game.  
+481. Create a memory card game.  
+482. Build a chat UI layout.  
+483. Create a movie search app using API.  
+484. Make a digital dice roller.  
+485. Build a drum kit simulator.  
+486. Create a virtual keyboard.  
+487. Create a color picker tool.  
+488. Build a text-to-speech converter.  
+489. Implement a file drag and drop uploader.  
+490. Create a resume generator.  
+491. Build a theme switcher with localStorage.  
+492. Make a countdown for new year.  
+493. Build a mini expense tracker.  
+494. Create a Netflix-like navbar.  
+495. Display random background images.  
+496. Build a shopping cart page.  
+497. Create a recipe search app.  
+498. Implement a form with multiple steps.  
+499. Create a CSS animation playground.  
+500. Build your own portfolio using only HTML, CSS, and JS.
+
+---
+
+Let me know your preference and I’ll set it up. 💪
