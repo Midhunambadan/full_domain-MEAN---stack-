@@ -1,0 +1,16 @@
+{
+  "name": "practicals",
+  "version": "1.0.0",
+  "main": "asyncAwait.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,8 @@
+
+
+<button (click)="sendToChild()">Send a message to child</button>
+
+<app-child [data]="message1" (eventEmitter)="handleEvent($event)" ></app-child>
+
+<h1>{{message2}}</h1>
+
