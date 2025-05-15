@@ -5,6 +5,7 @@ function remove(nums){
     let j=0
     let len=nums.length
     for(let i=0;i<len;i++){
+        
         let item=nums[i]
         if(item!==elem){
             nums[j]=item
