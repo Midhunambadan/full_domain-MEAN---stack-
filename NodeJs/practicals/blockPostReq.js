@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 })
 
 app.post('/login',(req,res)=>{
-    res.send('POST request (should be blocked)')
+    res.send('POST request  blocked')
 })
 
 app.post('/signin',(req,res)=>{

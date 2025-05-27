@@ -8,4 +8,5 @@ const isPost=async(req,res,next)=>{
     next()
 }
 
+
 module.exports=isPost
