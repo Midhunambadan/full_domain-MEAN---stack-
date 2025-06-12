@@ -1,7 +1,8 @@
 
 // recursive function to print sum of odd numbers in an array
 
-let arr=[1,2,3,4,5,6,7,8,9]
+let arr=[1,2,3,4,5,6,7,8,9,10]
+
 function oddSum(arr,i=0){
     if (arr.length==i) return 0
 

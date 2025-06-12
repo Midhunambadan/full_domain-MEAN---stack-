@@ -8,6 +8,5 @@ console.log(date);
 fs.writeFile('date.txt',date,(err)=>{
     if(!err){
         console.log('Date printed success');
-        
     }
 })

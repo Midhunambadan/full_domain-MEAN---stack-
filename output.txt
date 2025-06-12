@@ -1,0 +1,2 @@
+Hello, world!
+Writing with streams is cool!
