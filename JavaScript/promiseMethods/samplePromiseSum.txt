@@ -1,0 +1,116 @@
+
+// callback example
+
+// function add(a,b,callback){
+//   let res=a+b 
+//   callback(res)
+// }
+
+// function print(res){
+//   console.log('sum is :'+res)
+// }
+
+// add(5,3,print)
+
+//--------------------callback hell------------------------
+
+
+// function add(a,b,callback){
+//   let sum=a+b 
+//   callback(sum)
+// }
+
+// function multiple(a,callback){
+//   let product=a*2 
+//   callback(product)
+// }
+
+// function divide(a,callback){
+//   let divide=a+2 
+//   callback(divide)
+// }
+
+// add(10,20,function(sum){
+//   multiple(sum,function(product){
+//     divide(product,function(final){
+//       console.log('final result',final)
+//     })
+//   })
+// })
+
+//---------------Promose to solve callback hell------------------------
+
+// function add(a,b){
+//   return new Promise((resolve)=>{
+//     let sum=a+b 
+//     resolve(sum)
+//   })
+// }
+
+// function multiply(a){
+//   return new Promise((resolve)=>{
+//     let product=a*2 
+//     resolve(product)
+//   })
+// }
+
+// function divide(a){
+//   return new Promise((resolve)=>{
+//     let result=a/3 
+//     resolve(result)
+//   })
+// }
+
+
+// add(10,20).then((sum)=>multiply(sum)).then((product)=>divide(product)).then((final)=>{
+//   console.log('result is ',final)
+// })
+
+
+
+
+//--------------------------using async await------------------------
+
+// function add(a,b){
+//   return new Promise((resolve)=>{
+//     let res=a+b 
+//     resolve(res)
+//   })
+// }
+
+// function multiply(a){
+//   return new Promise((resolve)=>{
+//     let res=a*2 
+//     resolve(res)
+//   })
+// }
+
+// function divide(a){
+//   return new Promise((resolve)=>{
+//     let res=a/3 
+//     resolve(res)
+//   })
+// }
+
+
+// async function callculate(){
+//   try{
+//     let sum= await add(10,20)
+//     let product=await multiply(sum)
+//     let final=await divide(product)
+    
+//     console.log(final)
+    
+//   }catch(err){
+//     console.log(err)
+//   }
+// }
+
+// callculate()
+
+
+
+//--------------------------------------------------------------------------------
+
+
+

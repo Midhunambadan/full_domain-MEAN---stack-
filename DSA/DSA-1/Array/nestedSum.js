@@ -55,3 +55,28 @@ console.log(sumOfArry(arr))
 // }
 
 // console.log('111',val );
+
+//=------------------------------------------
+
+// let arr=[1,2,[3,[4,5,6,7],8],9]
+
+// console.log()
+
+// function flatArray(arr,res=[]){
+  
+//   for(let i=0;i<arr.length;i++){
+    
+//     if( typeof arr[i]=='object' && arr[i].constructor==Array){
+      
+//         flatArray(arr[i],res)
+//     }else if(typeof arr[i]==='number'){
+//       res.push(arr[i])
+//     }
+//   }
+  
+//   return res
+  
+// }
+
+// console.log(flatArray(arr))
+

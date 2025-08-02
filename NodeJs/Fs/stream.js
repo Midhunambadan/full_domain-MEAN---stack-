@@ -24,7 +24,7 @@ const writeStream = fs.createWriteStream('output.txt');
 writeStream.write('Hello, world!\n');
 writeStream.write('Writing with streams is cool!\n');
 
-writeStream.end(); // Closes the stream
+writeStream.end();
 
 writeStream.on('finish', () => {
   console.log('✅ Finished writing.');

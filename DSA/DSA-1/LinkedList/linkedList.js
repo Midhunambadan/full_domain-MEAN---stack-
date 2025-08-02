@@ -40,6 +40,9 @@ class LinkedList{
     }
 }
 
+
+
+
 let list=new LinkedList()
 list.prepend(20)
 list.prepend(50)

@@ -1,0 +1,29 @@
+Promise chaining
+Dufference between Promise and async/await
+What is prototypal inheritance
+Es6 feature (need more knowledge)
+Benifits of template laterals 
+Difference between slice and splice with example
+What is the return by find method
+Convert newted array into flat array without using any inbuilt method
+Nested object into flat object without using any inbuilt method
+Use to set information in the cookie and delete from cookie?
+Difference between DOM & BOM
+What is js proxy?
+Event bubbling and event capturing 
+Diiference between iterator, generator and decorator function
+What is streams 
+Worker thread cs cluster?
+What is event emitter with example
+Fork and spawn
+Distinct
+Group
+Aggression pipeline
+$bulkwrite
+$lookup
+
+Disadvantage of recusion
+What is MemoryLeak with example ?
+Merge sort to sort the string
+Write a code to find the depth of the BT
+Remove the duplicate from an array using recusion 
