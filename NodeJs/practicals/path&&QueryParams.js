@@ -4,6 +4,8 @@ const express = require('express');
 const app = express();
 
 //-------------path params----------------
+// ---path params (http://localhost:3000/sum/10/20)---------
+
 
 app.get('/sum/:a/:b', (req, res) => {
   const a = Number(req.params.a);
@@ -13,6 +15,9 @@ app.get('/sum/:a/:b', (req, res) => {
   res.send(`sum:== ${total}`)
 //   res.redirect(`/result/${total}`);
 });
+
+
+//-------Query parms (http://localhost:3000/finalSum?a=15&b=35)---------
 app.get('/finalSum',(req,res)=>{
     const a=Number(req.query.a)
     const b=Number(req.query.b)
