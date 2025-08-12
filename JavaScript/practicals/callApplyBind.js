@@ -8,9 +8,10 @@ function say(wish,place,age){
 }
 
 
-// say.call(person,'Hello')
+say.call(person,'Hello','klm',25)
 
-// say.apply(person,['hey','klm',25])
 
-let detail=say.bind(person,'hey')
-detail()
+// say.apply(person,['hi','klm',25])
+
+// let detail=say.bind(person,'hey','klm',25)
+// detail()
