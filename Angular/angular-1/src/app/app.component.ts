@@ -13,6 +13,7 @@ import { VowelsPipe } from './pipe/vowels.pipe';
 import { UppercasePipe } from './pipe/uppercase.pipe';
 import { NumberOnlyDirective } from './directives/number-only.directive';
 import { RightClickPreventDirective } from './directives/right-click-prevent.directive';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
 
 @Component({
   selector: 'app-root',
@@ -28,7 +29,10 @@ import { RightClickPreventDirective } from './directives/right-click-prevent.dir
     UppercasePipe,
   
     NumberOnlyDirective,
-    RightClickPreventDirective],
+    RightClickPreventDirective,
+  
+  RadioButtonComponent],
+
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
