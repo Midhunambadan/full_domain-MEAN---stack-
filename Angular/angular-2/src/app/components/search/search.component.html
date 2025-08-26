@@ -1,6 +1,8 @@
 
-
+<h1>Welcome user</h1>
 
 <div class="container">
-    <input type="text" placeholder="Enter your name" ()>
+    <input type="text" placeholder="Enter your name" (input)="enterText($event)">
 </div>
+
+<h1>{{text$ | async}}</h1>
